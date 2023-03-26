@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:h="clr-namespace:NativeControls.Handlers"
+             x:Class="NativeControls.MainPage">
+
+    <VerticalStackLayout Spacing="25"
+                         Padding="30,0"
+                         VerticalOptions="Center">
+        <Label Text="RIP OpenGLView"/>
+        <Label Text="https://github.com/dotnet/maui/pull/12579" h:LabelExt.IsSelectable="True" BackgroundColor="DimGray" />
+        
+        <Button Text="Implementation 1"
+                Clicked="Implementation1_Clicked"/>
+        <Button Text="Implementation 2"
+                Clicked="Implementation2_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
